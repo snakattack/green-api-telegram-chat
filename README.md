@@ -2,6 +2,8 @@
 
 Небольшой React-интерфейс для отправки и получения текстовых сообщений Telegram через GREEN-API. Приложение работает в браузере без собственного сервера.
 
+**Демо:** https://snakattack.github.io/green-api-telegram-chat/
+
 ## Подготовка инстанса
 
 1. Создайте **Telegram-инстанс** в [личном кабинете GREEN-API](https://console.green-api.com/) и авторизуйте его через Telegram.
@@ -29,7 +31,7 @@ npm run preview
 
 ## GitHub Pages
 
-Проект подготовлен к публикации через GitHub Actions: после загрузки в публичный репозиторий откройте **Settings → Pages → Build and deployment → Source** и выберите **GitHub Actions**. Затем запустите workflow **Deploy to GitHub Pages** на вкладке **Actions**. Адрес сайта будет вида `https://<владелец>.github.io/<репозиторий>/`.
+Сайт публикуется через GitHub Actions по адресу https://snakattack.github.io/green-api-telegram-chat/. Workflow из `.github/workflows/pages.yml` собирает и обновляет сайт после каждого пуша в `main`; его также можно запустить вручную на вкладке **Actions**.
 
 Учетные данные GREEN-API не добавляйте в репозиторий и секреты сборки: пользователь вводит их в форме уже на открытом сайте.
 
